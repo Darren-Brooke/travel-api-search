@@ -1,0 +1,156 @@
+.row {
+  margin-right: 0px;
+}
+
+/* body {
+  background: #0d1521;
+  font-family: tahoma;
+  color: #989898;
+}
+
+#todo-table {
+  position: relative;
+  width: 95%;
+  background: #090d13;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#todo-table form:after {
+  margin: 0;
+  content: '';
+  display: block;
+  clear: both;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 20px;
+  background: #181c22;
+  border: 0;
+  float: left;
+  font-size: 20px;
+  color: #989898;
+}
+
+button {
+  padding: 20px;
+  width: 30%;
+  float: left;
+  background: #23282e;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: arial;
+  font-size: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+li:hover {
+  text-decoration: line-through;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+}
+
+.login-form input[type="password"],
+.login-form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #dddddd;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #535b63;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#contact-form {
+  display: grid;
+  padding: 5% 30%;
+}
+
+#contact-form label, #contact-form input {
+  padding: 10px;
+}
+
+#contact-form input[value=submit] {
+  margin-top: 20px;
+  max-width: 100px;
+} */
+
+/*search box css start here*/
+.search-sec {
+  padding: 2rem;
+}
+
+.search-slt {
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius: 0;
+}
+
+.wrn-btn {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: calc(3rem + 2px) !important;
+  border-radius: 0;
+}
+
+@media (min-width: 992px) {
+  .search-sec {
+    position: relative;
+    top: -114px;
+    background: rgba(26, 70, 104, 0.51);
+  }
+}
+
+@media (max-width: 992px) {
+  .search-sec {
+    background: #1A4668;
+  }
+}
